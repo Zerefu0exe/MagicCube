@@ -8,9 +8,9 @@ namespace MagicCube
 {
     public class CMagicCube
     {
-        private int size;
-        private int[,] result;
-        private int[,] catalyst;
+        private readonly int size;
+        private readonly int[,] result;
+        private readonly int[,] catalyst;
 
         public int[,] GetMagicCube => result;
 
